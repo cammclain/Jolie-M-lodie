@@ -16,7 +16,7 @@ import reflex as rx
 # - rx.Model below indicates these classes are database-backed models integrated with Reflex’s ORM layer.
 
 from typing import Optional
-# Imports Optional for nullable type hints (value or None).
+# Imports Optional for nullable type hinSts (value or None).
 # - In Python 3.10+, you can also write `datetime | None` as a shorthand.
 
 class InviteCode(rx.Model, table=True):
